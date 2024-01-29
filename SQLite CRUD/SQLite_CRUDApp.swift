@@ -11,7 +11,9 @@ import SwiftUI
 struct SQLite_CRUDApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }
         }
     }
 }
